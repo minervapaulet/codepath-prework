@@ -156,7 +156,6 @@ function clearButton(btn){
 }
 
 function playSingleClue(btn){
-  // clock = true;
   if(gamePlaying){
     lightButton(btn);
     playTone(btn,clueHoldTime);
